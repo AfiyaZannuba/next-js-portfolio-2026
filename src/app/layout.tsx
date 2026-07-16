@@ -7,8 +7,9 @@ const inter = Inter({ subsets: ['latin'], variable: "--font-sans" });
 const calistoga = Calistoga({ subsets: ['latin'], variable: "--font-serif", weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Afiya Zannuba Jaleel | Full Stack Developer | React, Next.js, Shopify",
+  description:
+    "Full Stack Developer with 3 years of experience building scalable web applications using React, Next.js, Node.js, Shopify, and WordPress. Specialized in frontend performance, SEO, and modern UI/UX. Based in Dubai.",
 };
 
 export default function RootLayout({
