@@ -14,7 +14,7 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
     {
         company: "The Gift Factory",
-        year: "2026",
+        year: "2025",
         title: "Shopify E-commerce Store Development",
         results: [
             { title: "Customized Shopify theme for a better shopping experience" },
@@ -26,7 +26,7 @@ const portfolioProjects = [
     },
     {
         company: "Shu Xiaohuo",
-        year: "2024",
+        year: "2025",
         title: "Restaurant Website Development",
         results: [
             { title: "Developed a responsive restaurant website using WordPress" },
@@ -38,7 +38,7 @@ const portfolioProjects = [
     },
     {
         company: "Sweet Homes Dubai",
-        year: "2024",
+        year: "2025",
         title: "Real Estate Website Development",
         results: [
             { title: "Built and customized a WordPress real estate website" },
@@ -50,7 +50,7 @@ const portfolioProjects = [
     },
     {
         company: "Hascut",
-        year: "2024",
+        year: "2025",
         title: "Modern Business Website Development",
         results: [
             { title: "Developed a custom HTML, CSS, and JavaScript website" },
@@ -62,7 +62,7 @@ const portfolioProjects = [
     },
     {
         company: "Zain Hotel",
-        year: "2023",
+        year: "2026",
         title: "Hotel Website Maintenance & Enhancement",
         results: [
             { title: "Maintained and improved PHP CodeIgniter website functionality" },
@@ -74,7 +74,7 @@ const portfolioProjects = [
     },
     {
         company: "Sirucx",
-        year: "2024",
+        year: "2026",
         title: "Corporate Website Development",
         results: [
             { title: "Developed a responsive corporate website using HTML" },
@@ -86,7 +86,7 @@ const portfolioProjects = [
     },
     {
         company: "New Gen Dry Cleaning",
-        year: "2024",
+        year: "2026",
         title: "Service Business Website Development",
         results: [
             { title: "Built a clean and responsive business website" },
