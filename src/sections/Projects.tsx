@@ -5,6 +5,7 @@ import newgendryImage from "@/assets/images/newgendryclean.webp"
 import sirucxImage from "@/assets/images/sirucx.webp"
 import sweethomeImage from "@/assets/images/sweethomespa.webp"
 import zainImage from "@/assets/images/zainhotel.webp"
+import salesProfitsImage from "@/assets/images/salesDashboardImg.webp"
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
@@ -12,6 +13,18 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+    {
+        company: "Personal Project",
+        year: "2026",
+        title: "Sales & Profit Dashboard",
+        results: [
+            { title: "Created PivotTables to summarize and analyze sales and profit data" },
+            { title: "Designed an interactive Excel dashboard with PivotCharts and slicers" },
+            { title: "Visualized key KPIs to enable quick business performance insights" },
+        ],
+        link: "https://drive.google.com/drive/folders/1Fee0sJTyPKToHCcsWeyWpyAFFC0AlxO3",
+        image: salesProfitsImage,
+    },
     {
         company: "The Gift Factory",
         year: "2025",
