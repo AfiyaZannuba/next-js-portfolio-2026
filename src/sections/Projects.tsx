@@ -6,6 +6,7 @@ import sirucxImage from "@/assets/images/sirucx.webp"
 import sweethomeImage from "@/assets/images/sweethomespa.webp"
 import zainImage from "@/assets/images/zainhotel.webp"
 import salesProfitsImage from "@/assets/images/salesDashboardImg.webp"
+import PowerBIImage from "@/assets/images/PowerbiSalesDashboard.webp"
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
@@ -16,7 +17,19 @@ const portfolioProjects = [
     {
         company: "Personal Project",
         year: "2026",
-        title: "Sales & Profit Dashboard",
+        title: "Power BI Sales & Profit Dashboard",
+        results: [
+            { title: "Built an interactive Power BI dashboard to track sales, profit, and business performance" },
+            { title: "Transformed and modeled data using Power Query for accurate reporting" },
+            { title: "Designed dynamic reports with slicers, charts, and KPI cards for easy analysis" },
+        ],
+        link: "https://drive.google.com/drive/folders/1Fee0sJTyPKToHCcsWeyWpyAFFC0AlxO3",
+        image: PowerBIImage,
+    },
+    {
+        company: "Personal Project",
+        year: "2026",
+        title: "Excel Sales & Profit Dashboard",
         results: [
             { title: "Created PivotTables to summarize and analyze sales and profit data" },
             { title: "Designed an interactive Excel dashboard with PivotCharts and slicers" },
@@ -142,7 +155,7 @@ export const ProjectsSection = () => {
                                 </ul>
                                 <a href={project.link}>
                                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                                        <span>Visit Live Site</span>
+                                        <span>Visit Live</span>
                                         <ArrowUpRightIcon className="size-4 shrink-0" />
                                     </button>
                                 </a>
