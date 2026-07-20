@@ -65,10 +65,10 @@ const portfolioProjects = [
     {
         company: "Sweet Homes Dubai",
         year: "2025",
-        title: "Real Estate Website Development",
+        title: "SPA Services Wordpress Website",
         results: [
-            { title: "Built and customized a WordPress real estate website" },
-            { title: "Created responsive layouts for property-focused pages" },
+            { title: "Built and customized a WordPress SPA Services website" },
+            { title: "Created responsive layouts for service listing pages" },
             { title: "Improved website structure for better user engagement" },
         ],
         link: "https://sweethomespadubai.com/",
